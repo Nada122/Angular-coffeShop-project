@@ -1,0 +1,53 @@
+.head{
+    font-size: 80px;
+  animation: fadeIn 5s;
+    color:#33211D;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+p{
+    color: rgb(36, 21, 7);
+
+}
+ h1 
+{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: bold;
+  
+}
+
+.drinkbox 
+{
+    padding: 10px 5px;
+} 
+.drinkbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.drinkbox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btn
+{
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+    background-color: #000;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+   

@@ -1,0 +1,15 @@
+<h1 class="head">Menu</h1>
+<div class="container mt-5 mb-5" >
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let n of fooddata">
+            <div class="drinkbox mt-3 mb-3">
+             <img src="{{n.image}}" alt="">
+             <h1>{{n.title}}</h1>
+             <p>{{n.description}}</p>
+             <a class="btn" [routerLink]="['/menue',n.id]">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+

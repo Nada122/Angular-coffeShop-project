@@ -1,0 +1,22 @@
+img {
+    float: left;
+ animation: fadeIn 5s; 
+
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  *{
+    background-color: rgb(247, 241, 233);
+  }
+  .head{
+    margin: 30px;
+    font-size: 80px;
+    color:#33211D;
+    animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

@@ -1,0 +1,41 @@
+<app-navbar></app-navbar>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets\Pic\pexels-craig-adderley-1835900.jpg" alt="Random first slide" height="600px" width="100%" >
+      </div>
+      <div class="carousel-caption">
+        <h3 >Coffee </h3>
+        <p>Perfectly selected coffee beans.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets\Pic\pexels-helena-lopes-887723.jpg" alt="Random second slide" height="600px" width="100%">
+      </div>
+      <div class="carousel-caption">
+        <h3>Place</h3>
+        <p>A comfort place to relax, study and do your work.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets\Pic\pexels-chevanon-photography-302899.jpg" alt="Random third slide" height="600px" width="100%">
+      </div>
+      <div class="carousel-caption">
+        <h3>Employees</h3>
+        <p>Always happy to serve you.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+  <router-outlet></router-outlet>
+<app-footer></app-footer>
+<!-- <div class="arrow-btn">
+<a href="#" class=" position-fixed btn btn-lg btn-dark btn-lg-square back-to-top " ><i class="fa fa-angle-double-up"></i></a>
+</div> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>

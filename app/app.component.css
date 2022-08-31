@@ -1,0 +1,26 @@
+.arrow-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
+.arrow-btn a{
+    height: 39px;
+    width : 37px;
+    text-align: center;
+    background: #1b1b1b;
+    display: block;
+    cursor: pointer;
+}
+.arrow-btn a span{
+    color: #f2f2f2;
+    line-height: 39px;
+    font-size: 25px;
+}
+
+.arrow-btn a{
+    vertical-align: middle;
+    user-select: none;
+    transition: color 0.15s;
+
+}
